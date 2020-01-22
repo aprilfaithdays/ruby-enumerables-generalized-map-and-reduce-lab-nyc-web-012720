@@ -3,7 +3,7 @@ def map(array)
   i = 0
   while i < array.length do
     new << yield(array[i])
-    i+= 0
+    i += 1
   end
   new
 end
